@@ -2,4 +2,4 @@ jobs:
   main:
     image: maven:3-jdk-8
     steps:
-      package: mvn -B package
+      - package: mvn -B package
